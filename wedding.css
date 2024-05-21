@@ -47,10 +47,7 @@ body {
     font-size: 15px;
     text-align: justify;
 }
-.k{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .services-segments {
     max-width: 1200px;
@@ -71,7 +68,8 @@ body {
     display: flex;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    justify-content: space-between;
+    justify-content: left;
+    margin-bottom: 30px;
 }
 
 .service-item {
