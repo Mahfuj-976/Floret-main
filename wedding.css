@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-container {
+    background-color: #e9e6e6;
+    padding: 19px 25px;
+    border-radius: 4px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #666;
+}
+
+.breadcrumb a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #666;
+}
+
+.breadcrumb .current {
+    font-weight: bold;
+    color: #333;
+}
+.weeding_title{
+    font-size: 34px;
+    text-align: left;
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+}
+.wed_des{
+    font-size: 15px;
+    text-align: justify;
+}
+.k{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-segments {
+    max-width: 1200px;
+    width: 100%;
+    
+    
+}
+
+.services-segments h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.service-item img:hover {
+    transform: scale(1.05);
+}
+
+.service-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
